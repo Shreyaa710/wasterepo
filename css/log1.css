@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito";
+}
+
+p {
+  font-size: 2.8rem;
+  margin-bottom: 1.2rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.background {
+  /* height: ; */
+  height: 70rem;
+  width: 60rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 5rem;
+  background-color: #6c5ddc;
+  /* border-top-left-radius: 4rem;
+  border-bottom-left-radius: 4rem; */
+}
+.picture {
+  /* height: 80rem; */
+  max-width: 50rem;
+  flex: 0 1 70rem;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #6c5ddc;
+}
+
+.welcome {
+  font-size: 2.4rem;
+  margin-bottom: 2.8rem;
+}
+
+.heading {
+  margin-bottom: 1.6rem;
+  font-size: 5rem;
+}
+
+/* .welcome {
+  font-size: 2.4rem;
+} */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 6.4rem;
+  /* border: 3px solid black; */
+  /* height: 80rem; */
+  width: 120rem;
+  border-radius: 4rem;
+  /* margin-top: 7rem !important; */
+  overflow: hidden;
+  /* background-color: #6c5ddc; */
+  /* background-color: antiquewhite; */
+  box-shadow: 0 0 2rem #c4bef1;
+}
+
+form input {
+  position: relative;
+  width: 92%;
+  outline: none;
+  padding: 1.6rem;
+  border: 1px solid #00000060;
+  font-size: 1.6rem;
+  /* padding-right: 20rem; */
+  margin-bottom: 2rem;
+  border-radius: 4rem;
+  padding-left: 6rem;
+}
+form div {
+  width: 100%;
+  position: relative;
+}
+form div ion-icon {
+  position: absolute;
+  font-size: 3rem !important;
+  color: #00000060;
+  font-weight: 500 !important;
+  left: 2rem;
+  bottom: 3.34rem;
+}
+input:focus {
+  border: 1px solid #222;
+}
+.top {
+  /* margin-bottom: 8rem; */
+}
+.remember label {
+  font-size: 1.8rem;
+}
+#checkbox {
+  width: 20px;
+  height: 20px;
+  /* padding: 5rem !important; */
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2.4rem;
+}
+
+/* #checkbox {
+  height: 2rem;
+  max-width: 2rem;
+} */
+
+.pass {
+  margin-right: 2rem;
+  font-size: 1.8rem;
+}
+
+.btn {
+  padding: 1rem 1.6rem;
+  font-size: 2.4rem;
+  margin-top: 6.4rem;
+  width: 92%;
+  border-radius: 4rem;
+  background-color: #6c5ddc;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  border: 1px solid #6c5ddc;
+  transition: 0.2s all;
+}
+
+.btn:hover {
+  transition: 0.2s all;
+  border: 1px solid #6c5ddc;
+
+  background-color: #fff;
+  color: #6c5ddc;
+}
+
+.log-in {
+  flex: 1 1 70rem;
+  margin-bottom: 2.4rem;
+  padding: 0 5rem;
+  padding-right: 10rem;
+}
+
+a:link,
+a:visited {
+  color: #6c5ddc;
+  font-weight: 600;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
