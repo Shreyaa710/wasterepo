@@ -263,7 +263,13 @@ a:active {
   }
   .container {
     padding: 0 2rem;
+    /* position:relative; */
   }
+
+  .reg{
+    display:none;
+  }
+
   .container p {
     margin: 0 !important;
   }
