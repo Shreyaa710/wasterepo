@@ -266,9 +266,7 @@ a:active {
     /* position:relative; */
   }
 
-  .reg{
-    display:none;
-  }
+
 
   .container p {
     margin: 0 !important;
@@ -282,6 +280,7 @@ a:active {
   }
   .reg {
     margin: 0 !important;
-    margin-top: 6rem !important;
+    /* margin-top: 6rem !important; */
+    margin-bottom: 3rem !important;
   }
 }
