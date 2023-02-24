@@ -285,4 +285,8 @@ a:active {
     /* margin-top: 6rem !important; */
     margin-bottom: 3rem !important;
   }
+  .zruri{
+    align-self: flex-start;
+    margin-top:16rem !important;
+  }
 }
