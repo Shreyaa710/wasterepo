@@ -274,10 +274,14 @@
 font-size:2rem;
  }
 .my-box{
-    /* margin-left:50rem; */
-    display:flex;
-    align-items:center;
-    justify-content: center;
+    margin-left:50rem; 
+
+    margin-left:50rem;
+    /* width:80rem; */
+}
+
+.another{
+  width:60rem;
 }
 
 .section1-heading{
@@ -305,7 +309,7 @@ font-size:2rem;
     margin-top:5rem;
     display:flex;
     justify-content: center;
-    width:90vw;
+    /* width:90vw; */
     padding:1.2rem ;
 }
 
@@ -325,19 +329,54 @@ font-size:2rem;
     align-items:center;
 }
 
+
 button{
-    padding:1rem 4rem;
-    background-color: #6c5ddc;
-    color:#fff;
-    font-size:2rem;
-    border-radius:1rem;
-    margin-top:1rem;
+  padding:1rem 4rem;
+  background-color: #6c5ddc;
+  color:#fff;
+  font-size:2rem;
+  border-radius:1rem;
+  margin-top:1rem;
 }
+.btn:hover,.btn:active{
+  color:#6c5ddc;
+  font-weight:500;
+  background-color: #fff;
+border:1px solid #6c5ddc;
+
+}
+
+
 
 .t-name{
     font-size:2rem;
     margin-top:3rem;
 }
+
+select {
+  /* margin-top: 6rem; */
+  padding: 1.25rem 2rem !important;
+  position: relative;
+  /* height: 4rem !important; */
+  font-size: 1.7rem;
+  border-radius: 2.4rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-align-last: center;
+  -moz-text-align-last: center;
+  color: #333;
+  text-align: center !important;
+  background-color: #fff !important;
+  /* border: 1px solid #00000035; */
+  width: 100vw;
+  border: 1px solid #00000015;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
+
+
+  /* -webkit-appearance: none; */
+}
+
 
 
 @media (max-width: 768px) {
@@ -368,8 +407,18 @@ button{
 
       .assign{
         margin-left:2rem;
+        margin-top:6rem;
       }
       .btn{
         margin-left:2rem;
+      }
+
+      .my-box{
+        margin-left:0;
+        width:100vw;
+        display:flex;
+        align-items:center;
+        justify-content: center; 
+
       }
 }
