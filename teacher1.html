@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="teacher.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@40,300,0,200"
+    />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div class="icon nooone"><ion-icon name="menu-outline"></ion-icon></div>
+    <!-- <div class="aside "> -->
+    <div class="cloose">
+      <ion-icon name="close-outline"></ion-icon>
+    </div>
+    <div class="aside none"></div>
+    <aside class="noone">
+      <h1>CGC LMS</h1>
+      <script>
+        console.log("Hello");
+      </script>
+      <ul>
+        <a href="/dashboard" class="">
+          <span class="material-symbols-rounded"> dashboard </span>Dashboard
+        </a>
+        <% if(role=="CC") {%>
+        <a href="/upload">
+          <span class="material-symbols-rounded">cloud_upload</span>Upload
+          Timetable
+        </a>
+        <% } else{ %>
+        <a href="/timeTable">
+          <span class="material-symbols-rounded"> calendar_month </span
+          >TimeTable
+        </a>
+        <% } %>
+        <a class="aside-active">
+          <ion-icon name="calendar-number-outline"></ion-icon>Attendance
+
+          <div class="dot-active"></div>
+        </a>
+        <a>
+          <span class="material-symbols-rounded"> library_books </span>Notes
+        </a>
+        <a href="/grades"
+          ><span class="material-symbols-rounded">equalizer </span>Grades</a
+        >
+      </ul>
+      <div class="prof">
+        <div class="profile">
+          <span class="material-symbols-rounded">Person </span>
+          <div class="profileContent">
+            <h1><%=userName%></h1>
+            <h2>CSE F2</h2>
+          </div>
+          <div class="logout">
+            <a href="/logout">
+              <ion-icon name="power-outline"></ion-icon>
+            </a>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+
+
+    <main class="firstMain" style="margin-left: 2.5rem">
+        <h1>Schedule</h1>
+        <div class="classe">
+          <div class="classEnter notActive">
+            <div class="class1">
+              <div class="subject">Humanities</div>
+              <div class="section">4F2</div>
+              <div class="time">9:15 am to 10:10 am</div>
+              <div class="stattus">Ongoing</div>
+            </div>
+          </div>
+          <div class="classEnter">
+            <a href="/subject" class="class1">
+              <div class="subject"><%=subject%></div>
+              <div class="section">4F2</div>
+              <div class="time">9:15 am to 10:10 am</div>
+              <div class="stattus">Ongoing</div>
+            </a>
+          </div>
+          <div class="classEnter notActive">
+            <div class="class1">
+              <div class="subject">Humanities</div>
+              <div class="section">4F2</div>
+              <div class="time">9:15 am to 10:10 am</div>
+              <div class="stattus">Ongoing</div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <script src="js/attendance.js"></script>
+    </body>
+  </html>
