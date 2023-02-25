@@ -330,13 +330,14 @@ font-size:2rem;
 }
 
 
-button{
+.btn{
   padding:1rem 4rem;
   background-color: #6c5ddc;
   color:#fff;
   font-size:2rem;
   border-radius:1rem;
   margin-top:1rem;
+  transition: all 0.5s;
 }
 .btn:hover,.btn:active{
   color:#6c5ddc;
@@ -374,7 +375,7 @@ select {
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
 
 
-  /* -webkit-appearance: none; */
+  -webkit-appearance: none;
 }
 
 
@@ -407,7 +408,8 @@ select {
 
       .assign{
         margin-left:2rem;
-        margin-top:6rem;
+        margin-top:5rem;
+        margin-bottom:2rem;
       }
       .btn{
         margin-left:2rem;
