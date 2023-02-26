@@ -1,3 +1,33 @@
+<!-- Skip to content
+Search or jump to…
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@Shreyaa710 
+Academer
+/
+CGC-Attendance-Backend
+Private
+Fork your own copy of Academer/CGC-Attendance-Backend
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Settings
+CGC-Attendance-Backend/views/login.ejs
+@shivam907
+shivam907 Changed the Login Code
+Latest commit 45a3298 2 days ago
+ History
+ 1 contributor
+201 lines (191 sloc)  5.25 KB -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -68,28 +98,24 @@
         margin-top: 1rem !important;
       }
       /* below 530px */
-
-      @media (max-width: 33em) {
+      @media (max-width: 53em) {
         .picture {
           display: none;
         }
-
         .log-in {
           padding: 5rem 3rem !important;
         }
-
         .background {
           display: none !important;
         }
-
         .container {
-          align-self:flex-start;
+          align-self: flex-start;
           width: 90vw !important;
           margin: 5rem auto !important;
           height: 80vh;
-          box-shadow:none;
-          margin-top:-10rem;
-          overflow:scroll;
+          box-shadow: none;
+          margin-top: -10rem;
+          overflow: scroll;
         }
         * {
           /* font-size: 89.5% !important; */
@@ -110,27 +136,22 @@
         input {
           width: 100% !important;
         }
-
         .links {
           width: 100% !important;
           display: flex !important;
           justify-content: space-between !important;
         }
-
         .pass {
           justify-self: flex-end !important;
         }
-
         .remember {
           justify-self: flex-end !important;
           display: none;
         }
-
         .btn {
           width: 100% !important;
           margin-top: 4.4rem !important;
         }
-
         .top {
           margin-bottom: 2rem !important;
         }
@@ -151,6 +172,10 @@
         .btn ion-icon {
           margin-left: -2rem !important;
           gap: 0.6rem;
+        }
+
+        .btn-sign{
+          margin-top:0 !important;
         }
       }
     </style>
@@ -194,8 +219,33 @@
             <ion-icon name="log-in-outline"></ion-icon>Log In
           </button>
         </form>
+
+        <p class="or">---------OR---------</p>
+        <div class="signup"><a class="link--1" href="/register">SignUp</a> &nbsp; now </div>
       </div>
+
+
+      <!-- <div class="sign-up">
+        <p class="or">-------OR-------</p>
+        <button class="btn-sign btn">
+          Sign Up
+        </button>
+      </div> -->
     </div>
     <script src="js/login.js"></script>
   </body>
 </html>
+<!-- © 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+CGC-Attendance-Backend/login.ejs at main · Academer/CGC-Attendance-Backend -->
